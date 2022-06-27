@@ -14,5 +14,11 @@ router.route("/myorders").get(protect, getMyOrders);
 router.route("/:id").get(protect, getOrderById);
 
 router.route("/:id/deliver").put(protect, admin, updateOrderToDelivered);
-
+router.route("/:id/deliver").put(protect, admin, updateOrderToDelivered);
+router.route("/:id/deliver").put(protect, admin, updateOrderToDelivered);
+router.route("/:id/deliver").put(protect, admin, updateOrderToDelivered);
+router.route("/:id/deliver").put(protect, admin, updateOrderToDelivered);
+router.route("/:id/deliver").put(protect, admin, updateOrderToDelivered);
+router.route("/:id/deliver").put(protect, admin, updateOrderToDelivered);
+// commentaire de test
 export default router;
